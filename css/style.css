@@ -13,7 +13,7 @@ header {
 	background-image: url(../img/header-bg.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
-}
+   }
 	
 	nav {
 		height: 64px;
@@ -80,7 +80,7 @@ header {
 
 	.title-block p {
 		font-size: 1.2em;
-		margin-bottom: 30px;
+		margin-bottom: 80px;
 	}
 
 	.btn {
@@ -103,8 +103,6 @@ header {
 	.btn-works {
 		padding: 5px 30px;
 	}
-
-
 	
 	.btn-down {
 		width: 24px;
@@ -114,9 +112,43 @@ header {
 
 	.down {
 		text-align: center;
-		padding-top: 65px;
+		padding-top: 40px;
 	}
+
+/****SECTION .we-do****/
+
+.we-do {
+	color: #3b434c;
+	padding: 50px 0;
+}
 	
+	.we-do-block {
+		text-align: center;
+	}
+
+	.we-do-block h3 {
+		text-transform: uppercase;
+	}
+
+/****SECTION .middle****/	
+
+	.middle {
+		height: 200px;
+		background-image: url(../img/section-bg.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+
+	.btn-subscibe {
+		padding: 5px 60px;
+	}
+
+	.input {
+		
+	}
+
+
+
 
 
 /* Large Devices, Wide Screens */
@@ -160,6 +192,10 @@ header {
 		border-right: 20px;
 	}
 
+	.menu-btn span {
+		top: -7px;
+	}
+
 	#top_menu {
 		background-color: #363C44;
 		padding: 20px 0;
@@ -177,9 +213,7 @@ header {
 	.menu li a:hover {
 		color: #fff;
 		background-color: #F7600E;
-		
 	}
-
 }
 
 /* Extra Small Devices, Phones */
@@ -213,6 +247,10 @@ header {
 		border-right: 20px;
 	}
 
+	.menu-btn span {
+		top: -7px;
+	}
+
 	#top_menu {
 		background-color: #363C44;
 		padding: 20px 0;
@@ -230,9 +268,16 @@ header {
 	.menu li a:hover {
 		color: #fff;
 		background-color: #F7600E;
-		
 	}
 
+	.title-block h1 {
+		font-size: 2em;
+	}
+
+	.title-block p {
+		font-size: 0.9em;
+		margin-bottom: 80px;
+	}
 }
 
 	
