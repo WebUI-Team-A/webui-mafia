@@ -10,8 +10,8 @@
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-		<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+		
+		<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" href="css/style.css" />
@@ -24,7 +24,10 @@
 				<div class="container-fluid">
 					<div class="row">					
 						<div class="navbar-header">
-							<button class="navbar-toggle collapsed menu-btn" data-toggle="collapse" data-target="#top_menu"></button>
+							<button class="navbar-toggle collapsed menu-btn" data-toggle="collapse" data-target="#top_menu">
+								<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+							</button>
+
 
 							<a href="index.html" class="navbar-brand logo">
 								<p class="web-ui">Web-UI <span class="team">Team A</span></p>
@@ -62,6 +65,64 @@
 				</div>
 			</div>
 		</header>
+
+		<section class="we-do">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="we-do-block">
+							<img src="img/print.png" alt="Print" />
+							<h3>Print Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quasi ex sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="we-do-block">
+							<img src="img/desktop.png" alt="Desktop" />
+							<h3>Web Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quasi ex sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="we-do-block">
+							<img src="img/mobile.png" alt="Mobile" />
+							<h3>App Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quasi ex sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="we-do-block">
+							<img src="img/logo.png" alt="logo" />
+							<h3>Logo Design</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quasi ex sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="middle">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-md-offset-3">
+						<form class="input" action="#" method="get">
+							<div class="input-group" class="form-control" >
+								<input type="email" placeholder="Enter Your email adress for newsletter" />
+							</div>
+						</form>
+						
+					</div>
+
+					<div class="col-md-3">
+						<button class="btn btn-subscibe">Subscribe</button>						
+					</div>
+					
+				</div>
+			</div>
+		</section>
 
 		
 		<script src="js/jquery-2.2.2.js"></script>
