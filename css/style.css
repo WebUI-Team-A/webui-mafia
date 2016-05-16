@@ -1,0 +1,238 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	color: #fff;	
+}
+
+/*****HEADER*****/
+
+header {
+	height: 520px;
+	background-image: url(../img/header-bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+	
+	nav {
+		height: 64px;
+		line-height: 64px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.logo {
+		margin-top: 10px;
+		margin-left: 25px;
+	}
+
+	.web-ui {
+		color: #fff;
+	}
+
+	.team {
+		color: #F7600E;
+		font-size: 1.4em;
+	}
+
+	.menu {
+		list-style-type: none;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+	}	
+
+	.menu li {
+		display: inline-block;
+		font-size: 1em;
+		padding: 0 30px;
+	}
+
+	.menu li a:hover {
+		color: #F7600E;
+		text-decoration: none;
+	}
+
+	.top-line {
+		height: 1px;
+		background-color: #fff;
+	}
+
+	.future {
+		color: #F7600E;
+	}
+
+	.title-block {
+		text-align: center;
+		margin-top: 120px;
+		margin-bottom: 30px;
+	}
+
+	.title-block h1 {
+		font-size: 3em;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+
+	.title-block p {
+		font-size: 1.2em;
+		margin-bottom: 30px;
+	}
+
+	.btn {
+		background: none;
+		border: 1px solid #fff;
+		border-radius: 8px;
+		text-transform: uppercase;
+	}
+
+	.btn:hover {
+		color: #fff;
+		background: #F7600E;
+		border: 1px solid #F7600E;
+	}
+
+	.btn-hire {
+		padding: 5px 40px;
+	}
+
+	.btn-works {
+		padding: 5px 30px;
+	}
+
+
+	
+	.btn-down {
+		width: 24px;
+		height: 24px;
+		text-align: center;
+	}
+
+	.down {
+		text-align: center;
+		padding-top: 65px;
+	}
+	
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	/*****HEADER*****/
+
+	nav {
+		height: 60px;
+		line-height: 35px;
+		background-color: #363C44;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 9999; 
+	}	
+
+	.top-line {
+		display: none;
+	}
+
+	.logo {
+		padding-top: 15px
+	}
+
+	.menu-btn {
+		height: 40px;
+		width: 40px;
+		background-color: #F7600E;
+		border-right: 20px;
+	}
+
+	#top_menu {
+		background-color: #363C44;
+		padding: 20px 0;
+	} 
+
+	.menu li {
+		display: block;
+		text-align: center;
+	}
+
+	.menu li a {
+		display: block;
+	}
+
+	.menu li a:hover {
+		color: #fff;
+		background-color: #F7600E;
+		
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	/*****HEADER*****/
+
+	nav {
+		height: 60px;
+		line-height: 35px;
+		background-color: #363C44;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 9999; 
+	}
+
+	.top-line {
+		display: none;
+	}
+
+	.logo {
+		padding-top: 15px;
+	}	
+
+	.menu-btn {
+		height: 40px;
+		width: 40px;
+		background-color: #F7600E;
+		border-right: 20px;
+	}
+
+	#top_menu {
+		background-color: #363C44;
+		padding: 20px 0;
+	} 
+
+	.menu li {
+		display: block;
+		text-align: center;
+	}
+
+	.menu li a {
+		display: block;
+	}
+
+	.menu li a:hover {
+		color: #fff;
+		background-color: #F7600E;
+		
+	}
+
+}
+
+	
