@@ -76,18 +76,18 @@ header {
 	.title-block {
 		text-align: center;
 		margin-top: 120px;
-		margin-bottom: 30px;
+		margin-bottom: 30px;		
 	}
 
 	.title-block h1 {
 		font-size: 4em;
 		font-weight: bold;
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 
 	.title-block p {
 		font-size: 1.8em;
-		margin-bottom: 30px;
+		margin-bottom: 60px;
 	}
 
 	.btn {
@@ -262,6 +262,11 @@ header {
 	.menu {
 		font-size: 0.9em;
 		padding-right: 40px;
+	}
+
+	.title-block p {
+		font-size: 1.6em;
+		margin-bottom: 50px;
 	}
 }
 
