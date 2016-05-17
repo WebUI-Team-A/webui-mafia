@@ -32,8 +32,9 @@ header {
 
 	.logo {
 		margin-top: 10px;
-		margin-left: 25px;
+		margin-left: 40px;
 		font-size: 1.8em;
+		margin-bottom: 10px;
 	}
 
 	.web-ui {
@@ -49,13 +50,13 @@ header {
 		list-style-type: none;
 		text-transform: uppercase;
 		margin: 0;
-		padding: 0;
+		padding-right: 40px;
 	}	
 
 	.menu li {
 		display: inline-block;
 		font-size: 1em;
-		padding: 0 30px;
+		padding: 0 25px;
 	}
 
 	.menu li a:hover {
@@ -151,9 +152,7 @@ header {
 	}
 
 	.middle-row {
-
 		padding-top: 75px;
-		
 	}
 
 	/****SECTION WORK****/
@@ -204,7 +203,6 @@ header {
 
 	.work-block:hover .img-wrap{
 		opacity: 1;
-
 	}
 
 	.img-block {
@@ -238,6 +236,12 @@ header {
 		color: #F7600E;
 	}
 
+	.btn-show {
+		margin: 50px 0;
+		padding: 7px 40px;
+		border: 1px solid #c4c6c9;
+	}
+
 
 /************** MEDIA ********************/
 
@@ -246,13 +250,21 @@ header {
 
 }
 
+
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	.logo {
-		font-size: 1.4em;
+		font-size: 1.2em;
+		margin-left: 0px;
 	}
 
+	.menu {
+		font-size: 0.9em;
+		padding-right: 40px;
+	}
 }
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -260,14 +272,14 @@ header {
 	/*****HEADER*****/
 
 	nav {
-		height: 60px;
+		height: 70px; 
 		line-height: 35px;
 		background-color: #363C44;
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
-		z-index: 9999; 
+		z-index: 9999;		
 	}	
 
 	.top-line {
@@ -276,6 +288,16 @@ header {
 
 	.logo {
 		padding-top: 15px
+	}
+
+	.title-block h1 {
+		font-size: 3em;
+		margin-bottom: 60px;
+	}
+
+	.title-block p {
+		font-size: 1.2em;
+		margin-bottom: 60px;
 	}
 
 	.menu-btn {
@@ -309,13 +331,14 @@ header {
 	}
 }
 
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
 	/*****HEADER*****/
 
 	nav {
-		height: 60px;
+		height: 70px;
 		line-height: 35px;
 		background-color: #363C44;
 		position: fixed;
