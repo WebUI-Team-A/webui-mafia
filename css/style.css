@@ -6,6 +6,11 @@ body {
 	color: #fff;	
 }
 
+p {
+	font-size: 1.2em;
+}
+
+
 /*****HEADER*****/
 
 header {
@@ -28,6 +33,7 @@ header {
 	.logo {
 		margin-top: 10px;
 		margin-left: 25px;
+		font-size: 1.8em;
 	}
 
 	.web-ui {
@@ -62,7 +68,7 @@ header {
 		background-color: #fff;
 	}
 
-	.future {
+	.orange{
 		color: #F7600E;
 	}
 
@@ -73,14 +79,14 @@ header {
 	}
 
 	.title-block h1 {
-		font-size: 3em;
+		font-size: 4em;
 		font-weight: bold;
 		margin-bottom: 20px;
 	}
 
 	.title-block p {
-		font-size: 1.2em;
-		margin-bottom: 80px;
+		font-size: 1.8em;
+		margin-bottom: 30px;
 	}
 
 	.btn {
@@ -112,14 +118,14 @@ header {
 
 	.down {
 		text-align: center;
-		padding-top: 40px;
+		padding-top: 25px;
 	}
 
-/****SECTION .we-do****/
+/****SECTION WE DO****/
 
 .we-do {
 	color: #3b434c;
-	padding: 50px 0;
+	padding: 65px 0;
 }
 	
 	.we-do-block {
@@ -128,9 +134,10 @@ header {
 
 	.we-do-block h3 {
 		text-transform: uppercase;
+		margin-top: 40px;
 	}
 
-/****SECTION .middle****/	
+/****SECTION MIDDLE****/	
 
 	.middle {
 		height: 200px;
@@ -143,13 +150,96 @@ header {
 		padding: 5px 60px;
 	}
 
-	.input {
+	.middle-row {
+
+		padding-top: 75px;
 		
 	}
 
+	/****SECTION WORK****/
+	
+	.work {
+		color: #3b434c;	
+	   padding: 50px 0;
+	   text-align: center;
+	}
+
+	.tittle-work h2 {
+		text-transform: uppercase;
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+
+	.tittle-text {
+		margin-bottom: 85px;
+	}
+
+	.work-block {
+		position: relative;
+	}
+
+	.row-work {
+		margin-bottom: 30px;
+	}
+
+	.img-wrap {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(247, 96, 14, 0.9);
+		border-radius: 11px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		opacity: 0;
+	}
+
+	.work-block img {
+		border-radius: 11px;
+	}
+
+	.work-block:hover .img-wrap{
+		opacity: 1;
+
+	}
+
+	.img-block {
+		text-align: center;
+		margin: auto;
+	}
+
+	.img-block h4{
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 1.8em;
+		margin-bottom: 20px;
+	}
+
+	.work-text {
+		padding: 0 10px;
+		margin-bottom: 40px;
+		color: #fff;
+	}
+
+	.btn-project {
+		background-color: #fff;
+	   color: #F7600E;
+	   text-transform: uppercase;
+	   font-size: 1.2em;
+	   padding: 10px 25px;
+	}
+
+	.btn-project:hover {
+		background-color: #fff;
+		color: #F7600E;
+	}
 
 
-
+/************** MEDIA ********************/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -158,6 +248,9 @@ header {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.logo {
+		font-size: 1.4em;
+	}
 
 }
 
@@ -281,3 +374,4 @@ header {
 }
 
 	
+
