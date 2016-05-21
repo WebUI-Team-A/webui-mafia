@@ -151,6 +151,13 @@ a {
 	background-size: cover;
 }
 
+#middle-email input[type="email"] {
+	width: 350px;
+	min-width: 100%;
+	padding: 3px 0 3px 10px;
+	border-radius: 7px;
+}
+
 .btn-subscibe {
 	padding: 5px 60px;
 }
@@ -258,25 +265,70 @@ a {
 	-webkit-background-size: cover;
 	background-size: cover;
 	text-align: center;
+	padding-top: 130px;
 }
 
-.img-person {
-	margin: 60px 0;
+/*** carousel ***/
+
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px 0px 0px;
 }
 
-.img-person img {
-	width: 125px;
-	height: 125px;
-	border-radius: 50%;
+/* Control buttons  */
+#quote-carousel .carousel-control {
+  text-shadow: none;
+  background: none;
+  margin-top: 30px;
+  font-size: 2.3em;
 }
 
-.review-text {
-	margin-bottom: 20px;
+/* Previous button  */
+#quote-carousel .carousel-control.left {
+	left: -75px;
 }
 
-.review-name {
+#quote-carousel .carousel-control.left:hover,
+#quote-carousel .carousel-control.right:hover {
+	color: #F7600E;
+}
+
+/* Next button  */
+#quote-carousel .carousel-control.right {
+  right: -80px !important;
+}
+
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  margin-right: -19px;
+  bottom: -20px;
+}
+
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li {
+	background: #c0c0c0;
+}
+
+#quote-carousel .carousel-indicators .active{
+	background: #F7600E;
+}
+
+#quote-carousel img {
+   width: 120px;
+   height: 120px;
+}
+
+.item p {
+	margin: 15px 0 10px;
+}
+
+.name {
 	font-size: 1em;
 }
+
+/* End carousel */
 
 
 
@@ -301,6 +353,7 @@ a {
 .team-block img {
 	width: 195px;
 	height: 260px;
+	border-radius: 5px;
 }
 
 .team-block h4{
