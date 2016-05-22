@@ -14,6 +14,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/animate.css" />
 	</head>
@@ -28,7 +29,7 @@
 								<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
 							</button>
 							<a href="index.html" class="navbar-brand logo">
-								<p class="web-ui">Web-UI <span class="team">Team A</span></p>
+								<p class="web-ui">Web-UI <span class="logo-team">Team A</span></p>
 							</a>
 						</div>
 
@@ -105,10 +106,8 @@
 			<div class="container">
 				<div class="row middle-row">
 					<div class="col-md-4 col-md-offset-3">
-						<form class="input" action="#" method="get">
-							<div class="input-group" class="form-control" >
-								<input type="email" class="form-control" placeholder="Enter Your email adress for newsletter" />
-							</div>
+						<form action="#" id="middle-email">							
+							<input type="email" name="email" placeholder="Enter Your email adress for newsletter" />
 						</form>						
 					</div>
 
@@ -123,15 +122,15 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
-						<div class="tittle-work">
+						<div class="title-work">
 							<h2>Our <span class="orange">Works</span></h2>
-							<p class="tittle-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate rem voluptas a iusto, consequuntur possimus quisquam illum labore dicta alias.</p>
+							<p class="work-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate rem voluptas a iusto, consequuntur possimus quisquam illum labore dicta alias.</p>
 						</div>												
 					</div>
 				</div>
 
 				<div class="row row-work">
-					<div class="col-md-4 col-sm-6">
+					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="work-block">
 							<div class="img-wrap">
 								<div class="img-block">									
@@ -144,7 +143,7 @@
 						</div>
 					</div>
 					
-					<div class="col-md-4 col-sm-6">
+					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="work-block">
 							<div class="img-wrap">
 								<div class="img-block">									
@@ -157,7 +156,7 @@
 						</div>
 					</div>
 					
-					<div class="col-md-4 col-sm-6">
+					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="work-block">
 							<div class="img-wrap">
 								<div class="img-block">									
@@ -169,10 +168,23 @@
 							<img src="img/project3.jpg" class="img-responsive" alt="Project image">
 						</div>
 					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="work-block">
+							<div class="img-wrap">
+								<div class="img-block">									
+									<h4>Abazoo Website</h4>
+									<p class="work-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro provident illo assumenda.</p>
+									<button class="btn btn-project">Show Project</button>
+								</div>
+							</div>
+							<img src="img/project5.jpg" class="img-responsive" alt="Project image">
+						</div>
+					</div>
 				</div>
 
 				<div class="row row-work">
-					<div class="col-md-4 col-sm-6">
+					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="work-block">
 							<div class="img-wrap">
 								<div class="img-block">									
@@ -185,7 +197,7 @@
 						</div>
 					</div>
 					
-					<div class="col-md-4 col-sm-6">
+					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="work-block">
 							<div class="img-wrap">
 								<div class="img-block">									
@@ -198,7 +210,7 @@
 						</div>
 					</div>
 					
-					<div class="col-md-4 col-sm-6">
+					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="work-block">
 							<div class="img-wrap">
 								<div class="img-block">									
@@ -210,6 +222,19 @@
 							<img src="img/project6.jpg" class="img-responsive" alt="Project image">
 						</div>
 					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="work-block">
+							<div class="img-wrap">
+								<div class="img-block">									
+									<h4>Abazoo Website</h4>
+									<p class="work-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro provident illo assumenda.</p>
+									<button class="btn btn-project">Show Project</button>
+								</div>
+							</div>
+							<img src="img/project2.jpg" class="img-responsive" alt="Project image">
+						</div>
+					</div>
 				</div>
 
 				<div class="row">
@@ -219,6 +244,210 @@
 				</div>
 			</div>			
 		</section>
+
+		<section class="review">
+			<div class="container">				  
+	         <div class="row">
+	            <div class="col-md-offset-2 col-md-8">
+	                  <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+	                     <!-- Bottom Carousel Indicators -->
+	                     <ol class="carousel-indicators">
+	                        <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+	                        <li data-target="#quote-carousel" data-slide-to="1"></li>
+	                        <li data-target="#quote-carousel" data-slide-to="2"></li>
+	                     </ol>
+	                     <!-- Carousel Slides-->
+	                     <div class="carousel-inner">
+	                        <div class="item active">
+	                           <div class="row">
+	                              <div class="col-sm-3 text-center">
+	                                 <img class="img-circle" src="img/virastuk.jpg"></div>
+		                              <div class="col-sm-9">
+		                                 <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit.</p>
+		                                 <p class="name">Vasul Virastiyk</p>
+		                              </div>
+	                           </div>                            
+	                        </div>
+	                       
+	                        <div class="item">
+	                           <div class="row">
+	                              <div class="col-sm-3 text-center">
+	                                 <img class="img-circle" src="img/karol.jpg"></div>
+	                                 <div class="col-sm-9">
+	                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit.</p>
+	                                    <p class="name">Tina Karol</p>
+	                              </div>
+	                           </div>                            
+	                        </div>
+	                       
+	                        <div class="item">
+	                           <div class="row">
+	                              <div class="col-sm-3 text-center">
+	                                 <img class="img-circle" src="img/gorbunov.jpg"></div>
+	                                 <div class="col-sm-9">
+	                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit.</p>
+	                                    <p class="name"> class="name"Yuriy Gorbunov</p>
+	                              </div>
+	                           </div>                            
+	                        </div>
+	                    </div>
+	                    <!-- Carousel Buttons Next/Prev -->
+	                    <a data-slide="prev" href="#quote-carousel" class="left carousel-control"> <i class="fa fa-chevron-left"></i></a>
+	                    <a data-slide="next" href="#quote-carousel" class="right carousel-control"> <i class="fa fa-chevron-right"></i></a>
+	                </div>
+	            </div>
+            </div>
+			</div>			
+		</section>
+
+		<section class="team">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="title-team">
+							<h2>Our <span class="orange">Team</span></h2>
+							<p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate rem voluptas a iusto, consequuntur possimus quisquam illum labore dicta alias.</p>
+						</div>												
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+						<div class="team-block">
+							<img src="img/viktor.jpg" classs="img-responsive" alt="Photo team member">
+							<h4>Victor Datsko</h4>
+							<div class="social">
+								<a href="#"><img src="img/facebook.png"  class="img-responsive" alt="facebook"></a>
+								<a href="#"><img src="img/twitter.png"  class="img-responsive" alt="facebook"></a>
+								<a href="#"><img src="img/google.png"  class="img-responsive" alt="facebook"></a>										
+							</div>
+							<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A iste aut iure ratione explicabo at consequuntur eveniet ipsam cumque ex.</p>						
+						</div>						
+					</div>
+
+					<div class="col-md-4">
+						<div class="team-block">
+							<img src="img/kolya.jpg" classs="img-responsive" alt="Photo team member">
+							<h4>Mukola Yanush</h4>
+							<div class="social">
+								<a href="#"><img src="img/facebook.png"  class="img-responsive" alt="facebook"></a>
+								<a href="#"><img src="img/twitter.png"  class="img-responsive" alt="facebook"></a>
+								<a href="#"><img src="img/google.png"  class="img-responsive" alt="facebook"></a>										
+							</div>
+							<p class="text-member">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A iste aut iure ratione explicabo at consequuntur eveniet ipsam cumque ex.</p>						
+						</div>						
+					</div>
+
+					<div class="col-md-4">
+						<div class="team-block">
+							<img src="img/ivan.jpg" classs="img-responsive" alt="Photo team member">
+							<h4>Ivan Panchenko</h4>
+							<div class="social">
+								<a href="#"><img src="img/facebook.png"  class="img-responsive" alt="facebook"></a>
+								<a href="#"><img src="img/twitter.png"  class="img-responsive" alt="facebook"></a>
+								<a href="#"><img src="img/google.png"  class="img-responsive" alt="facebook"></a>										
+							</div>
+							<p class="text-member">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A iste aut iure ratione explicabo at consequuntur eveniet ipsam cumque ex.</p>						
+						</div>								
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-4 col-md-offset-2">
+						<div class="team-block">
+							<img src="img/yaroslav.jpg" classs="img-responsive" alt="Photo team member">
+							<h4>Yaroslav Trotsaj</h4>
+							<div class="social">
+								<a href="#"><img src="img/facebook.png"  class="img-responsive" alt="facebook"></a>
+								<a href="#"><img src="img/twitter.png"  class="img-responsive" alt="facebook"></a>
+								<a href="#"><img src="img/google.png"  class="img-responsive" alt="facebook"></a>										
+							</div>
+							<p class="text-member">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A iste aut iure ratione explicabo at consequuntur eveniet ipsam cumque ex.</p>						
+						</div>								
+					</div>
+
+					<div class="col-md-4">
+						<div class="team-block">
+							<img src="img/andrii.jpg" classs="img-responsive" alt="Photo team member">
+							<h4>Andrii Svchuk</h4>
+							<div class="social">
+								<a href="#"><img src="img/facebook.png"  class="img-responsive" alt="facebook"></a>
+								<a href="#"><img src="img/twitter.png"  class="img-responsive" alt="facebook"></a>
+								<a href="#"><img src="img/google.png"  class="img-responsive" alt="facebook"></a>										
+							</div>
+							<p class="text-member">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A iste aut iure ratione explicabo at consequuntur eveniet ipsam cumque ex.</p>						
+						</div>								
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="main-footer">
+			<div class="container">
+				<div class="row row-title">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="title-hello">
+							<h2>Say <span class="orange">Hello</span></h2>
+							<p class="team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate rem voluptas a iusto, consequuntur possimus quisquam illum labore dicta alias.</p>
+						</div>												
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 col-md-offset-2">
+						<form action="#" id="footer-email">							
+							<input type="email" name="email" placeholder="Your email" />
+						</form>
+					</div>
+
+					<div class="col-md-4">
+						<form action="#" id="name">							
+							<input type="text" name="name" placeholder="Your name" />
+						</form>
+					</div>
+				</div>
+
+				<div class="row row-message">
+					<div class="col-md-8 col-md-offset-2">
+						<form action="#" id="message">							
+							<input type="text" name="message" placeholder="Your Message" />
+						</form>
+					</div>					
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 col-md-offset-2">
+						<button class="btn btn-hire">Hire Us</button>
+					</div>
+
+					<div class="col-md-4 col-md-offset-">
+						<div class="social">
+							<ul>
+								<li><a href="#"><img src="img/facebook.png"  class="img-responsive" alt="facebook"></a></li>
+								<li><a href="#"><img src="img/twitter.png"  class="img-responsive" alt="facebook"></a></li>
+								<li><a href="#"><img src="img/google.png"  class="img-responsive" alt="facebook"></a></li>
+								<li><a href="#"><img src="img/social1.png"  class="img-responsive" alt="facebook"></a></li>
+								<li><a href="#"><img src="img/social2.png"  class="img-responsive" alt="facebook"></a></li>
+							</ul>										
+						</div>						
+					</div>
+				</div>
+			</div>			
+		</footer>
+
+		<footer class="bottom-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<p>&copy; 2016 ipsum dolor sit.</p>
+					</div>
+
+					<div class="col-md-4 col-md-offset-4">
+						<p class="design">Lorem ipsum dolor sit.</p>
+					</div>
+				</div>
+			</div>			
+		</footer>
 
 		
 		<script src="js/jquery-2.2.2.js"></script>
