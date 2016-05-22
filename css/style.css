@@ -176,13 +176,13 @@ a {
 	text-align: center;
 }
 
-.tittle-work h2 {
+.title-work h2 {
 	text-transform: uppercase;
 	font-size: 2em;
 	margin-bottom: 20px;
 }
 
-.tittle-text {
+.work-text {
 	margin-bottom: 85px;
 }
 
@@ -340,7 +340,7 @@ a {
 	padding: 50px 0;
 }
 
-.tittle-team h2 {
+.title-team h2 {
 	text-transform: uppercase;
    font-size: 2em;
    margin-bottom: 20px;
@@ -388,8 +388,68 @@ a {
 	text-align: center;
 }
 
+.row-title {
+	margin-top: 50px;
+}
 
+.row-message {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
 
+.title-hello h2 {
+	text-transform: uppercase;
+   font-size: 2em;
+   margin-bottom: 20px;
+}
+
+#footer-email input[type="email"], 
+#name	input[type="text"] {
+	width: 350px;
+	min-width: 100%;
+	padding: 3px 0 3px 10px;
+	border-radius: 7px
+}
+
+#message input[type="text"] {
+	width: 700px;
+	height: 200px;
+	min-width: 100%;
+	border-radius: 7px;
+	padding-left: 10px;
+}
+
+.main-footer .btn-hire {
+	float: left;
+	margin-top: 10px;
+}
+
+.main-footer .social ul li {
+	display: inline-block;
+	float: right;
+	*: ;
+	zoom: 1;
+}
+
+.main-footer .social ul li img {
+	width: 32px;
+	height: 32px;
+}
+
+.bottom-footer {
+	height: 100px;
+	background-color: #3b434c;
+	padding: 40px 0;
+}
+
+.bottom-footer p {
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+.bottom-footer .design {
+	float: right;
+}
 
 
 
