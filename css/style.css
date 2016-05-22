@@ -399,7 +399,26 @@ a {
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	
+		.img-block h4 {
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 1.5em;
+		margin-bottom: 10px;
+	}
+
+	.work-text {
+		padding: 0 10px;
+		margin-bottom: 10px;
+		color: #fff;
+	}
+
+	.btn-project {
+		background-color: #fff;
+	   color: #F7600E;
+	   text-transform: uppercase;
+	   font-size: 1em;
+	   padding: 6px 20px;
+	}
 }
 
 
