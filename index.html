@@ -35,11 +35,11 @@
 
 							<div class="collapse navbar-collapse navbar-right" id="top_menu">
 								<ul class="menu">
-									<li><a href="#">We do</a></li>
-									<li><a href="#">Our works</a></li>
-									<li><a href="#">Reviews</a></li>
-									<li><a href="#">Our Team</a></li>
-									<li><a href="#">Contacts</a></li>
+									<li><a href="#wedo">We do</a></li>
+									<li><a href="#ourworks">Our works</a></li>
+									<li><a href="#review">Reviews</a></li>
+									<li><a href="#ourteam">Our Team</a></li>
+									<li><a href="#contacts">Contacts</a></li>
 								</ul>								
 							</div>					
 						</div>
@@ -64,9 +64,7 @@
 				</div>
 			</header>
 		
-
-		
-			<section class="we-do">
+			<section id="wedo" class="we-do">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-sm-6">
@@ -121,7 +119,7 @@
 			</section>
 				
 
-			<section class="work">
+			<section id="ourworks" class="work">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
@@ -248,7 +246,7 @@
 				</div>			
 			</section>
 
-			<section class="review">
+			<section id="review" class="review">
 				<div class="container">				  
 		         <div class="row">
 		            <div class="col-md-offset-2 col-md-8">
@@ -303,7 +301,7 @@
 				</div>			
 			</section>
 
-			<section class="team">
+			<section id="ourteam" class="team">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
@@ -385,7 +383,7 @@
 				</div>
 			</section>
 
-			<footer class="main-footer">
+			<footer id="contacts" class="main-footer">
 				<div class="container">
 					<div class="row row-title">
 						<div class="col-md-8 col-md-offset-2">
@@ -441,19 +439,21 @@
 			<footer class="bottom-footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4">
-							<p>&copy; 2016 ipsum dolor sit.</p>
-						</div>
+						<div class="col-md-12">
+							<div class="copyright">
+								<p>&copy; 2016 ipsum dolor sit.</p>
+							</div>
 
-						<div class="col-md-4 col-md-offset-4">
-							<p class="design">Lorem ipsum dolor sit.</p>
+							<div class="design">
+								<p >Lorem ipsum dolor sit.</p>
+							</div>
 						</div>
 					</div>
 				</div>			
 			</footer>
 		</div>
 		
-		<script src="js/jquery-2.2.2.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 		<script src="libs/bootstrap/js/bootstrap.js"></script>
 
 		<script src="js/script.js"></script>
@@ -484,5 +484,16 @@
 				  });
 				});
 			</script>
+
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$('a[href^="#"]').click(function(){
+						var el = $(this).attr('href');
+					$('body').animate({
+						scrollTop: $(el).offset().top}, 2000);
+					return false;
+					});
+				});
+	</script>
 	</body>
 </html>
