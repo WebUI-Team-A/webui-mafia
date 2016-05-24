@@ -1,4 +1,6 @@
 
+@import url(reset.css);
+
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
@@ -26,6 +28,11 @@ nav {
 }
 
 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:visited {
 	text-decoration: none;
 	color: #fff;
 }
@@ -399,7 +406,7 @@ a {
 
 .row-message {
 	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 .title-hello h2 {
@@ -418,15 +425,14 @@ a {
 
 #message input[type="text"] {
 	width: 700px;
-	height: 200px;
 	min-width: 100%;
 	border-radius: 7px;
-	padding-left: 10px;
+	padding: 10px 0 170px 10px;
 }
 
 .main-footer .btn-hire {
 	float: left;
-	margin-top: 10px;
+	margin-top: 9px;
 }
 
 .main-footer .social ul li {
@@ -526,6 +532,7 @@ a {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	
 	.logo {
 		font-size: 1.2em;
 		margin-left: 0px;
@@ -550,6 +557,15 @@ a {
 	.work-block {
 		margin-top: 25px;
 	}
+}
+
+/****SECTION MIDDLE****/	
+
+	#middle-email input[type="email"] {
+	padding: 3px 0 3px 10px;
+	border-radius: 7px;
+	min-width: 100%;
+	width: 250px;
 }
 
 
