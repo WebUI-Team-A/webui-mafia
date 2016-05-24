@@ -64,22 +64,21 @@ body {
 	min-height:100%;
 }
 a, a:visited { /* порядок правил для ссылок имеет значение */
-	color: #e6618c;
-	text-decoration: underline;
+	color: #fff;
+	text-decoration: none;
 }
 a:hover {
 	color: #fdf208;
-	text-decoration:none;
+	text-decoration: none;
 }
 a:focus, a:active {
-	color: #c83867;
-	text-decoration: underline;
+	color: #fff;;
+	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6{
 	font-weight:normal;
 }
 img{
-
 	max-width:100%;
 }
 .clr{
