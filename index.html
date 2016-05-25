@@ -12,11 +12,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 		
 		<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
-
-		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css" />		
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" href="css/animsition.css" />
-		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" href="css/animate.css" />		
+		<link rel="stylesheet" href="css/style.css" />		
 	</head>
 
 	<body>
@@ -150,12 +150,12 @@
 						<div class="work-block">
 							<div class="img-wrap">
 								<div class="img-block">									
-									<h4>Abazoo Website</h4>
+									<h4>Franko.city</h4>
 									<p class="work-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro provident illo assumenda.</p>
-									<button class="btn btn-project">Show Project</button>
+									<a href="http://bloodypastor.github.io/frankivsk/" target="_blank"><button class="btn btn-project">Show Project</button></a>
 								</div>
 							</div>
-							<img src="img/project2.jpg" class="img-responsive" alt="Project image">
+							<img src="img/frankocity.jpg" class="img-responsive" alt="Project image">
 						</div>
 					</div>
 					
@@ -163,12 +163,12 @@
 						<div class="work-block">
 							<div class="img-wrap">
 								<div class="img-block">									
-									<h4>Abazoo Website</h4>
+									<h4>Elon Musk</h4>
 									<p class="work-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro provident illo assumenda.</p>
-									<button class="btn btn-project">Show Project</button>
+									<a href="http://bloodypastor.github.io/emusk/" target="_blank"><button class="btn btn-project">Show Project</button></a>
 								</div>
 							</div>
-							<img src="img/project3.jpg" class="img-responsive" alt="Project image">
+							<img src="img/musk.jpg" class="img-responsive" alt="Project image">
 						</div>
 					</div>
 
@@ -458,48 +458,12 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 		<script src="libs/bootstrap/js/bootstrap.js"></script>
 		<script src="js/wow.min.js"></script>
+
 		<script>
 			new WOW().init();
 		</script>
-
-		<script src="js/script.js"></script>
+		
 		<script src="js/animsition.js"></script>
-		<script>
-			$(document).ready(function() {
-			  $(".animsition").animsition({
-			    inClass: 'fade-in-up',
-			    outClass: 'fade-out-up',
-			    inDuration: 1500,
-			    outDuration: 800,
-			    linkElement: '.animsition-link',
-			    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-			    loading: true,
-			    loadingParentElement: 'body', //animsition wrapper element
-			    loadingClass: 'animsition-loading',
-			    loadingInner: '', // e.g '<img src="loading.svg" />'
-			    timeout: false,
-			    timeoutCountdown: 5000,
-			    onLoadEvent: true,
-			    browser: [ 'animation-duration', '-webkit-animation-duration'],
-			    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-			    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-			    overlay : false,
-			    overlayClass : 'animsition-overlay-slide',
-			    overlayParentElement : 'body',
-			    transition: function(url){ window.location.href = url; }
-			  });
-			});
-		</script>
-
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('a[href^="#"]').click(function(){
-					var el = $(this).attr('href');
-				$('body').animate({
-					scrollTop: $(el).offset().top}, 2000);
-				return false;
-				});
-			});
-	   </script>
+		<script src="js/script.js"></script>
 	</body>
 </html>
