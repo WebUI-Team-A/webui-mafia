@@ -161,16 +161,12 @@ s, Phones */
 	padding-top: 75px;
 }
 s, Phones */
-#message input[type="text"] {
-	width: 350px;
+#footer-email input[type="email"], {
+	width: 300px;
 	min-width: 100%;
+	padding: 3px 0 3px 10px;
 	border-radius: 7px;
-	padding: 10px 0 170px 10px;
-}
-s, Phones */
-.main-footer .social ul li img {
-	width: 24px;
-	height: 24px;
+	margin-bottom: 20px;
 }
 s, Phones */
 @media only screen and (max-width : 768px) {
@@ -411,6 +407,12 @@ s, Phones */
 }
 s, Phones */
 .main-footer .btn-hire {
+	float: left;
+}
+s, Phones */
+.social {
+	display: inline-block;
+	float: right;
 }
 s, Phones */
 .main-footer .social ul li {
@@ -420,8 +422,8 @@ s, Phones */
 }
 s, Phones */
 .main-footer .social ul li img {
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 }
 s, Phones */
 .bottom-footer {
@@ -446,6 +448,22 @@ s, Phones */
 }
 s, Phones */
 @media only screen and (max-width : 1200px) {
+}
+s, Phones */
+#footer-email input[type="email"], 
+	#name	input[type="text"] {
+	width: 300px;
+	min-width: 100%;
+	padding: 3px 0 3px 10px;
+	border-radius: 7px;
+	margin-bottom: 20;
+}
+s, Phones */
+#message input[type="text"] {
+	width: 620px;
+	min-width: 100%;
+	border-radius: 7px;
+	padding: 10px 0 170px 10px;
 }
 s, Phones */
 @media only screen and (max-width : 992px) {
@@ -697,6 +715,10 @@ a:visited {
 	margin: auto;
 }
 
+.img-block a {
+	color: #F7600E;
+}
+
 .img-block h4 {
 	text-transform: uppercase;
 	color: #fff;
@@ -837,22 +859,14 @@ a:visited {
 	margin: 20px 0;
 }
 
-.social {
-	margin-bottom: 20px;
-}
-
-.social img {
-	width: 20px;
-	height: 20px;
-	display: inline-block;
-	margin: 0 10px;
-	border: none;	
-}
 
 .team-block p {
 	margin-bottom: 50px;
 }
 
+.team-block .social {
+	float: none;
+}
 
 /************** GOOGLE MAP *****************/
 
@@ -887,6 +901,7 @@ a:visited {
    margin-bottom: 20px;
 }
 
+
 #footer-email input[type="email"], 
 #name	input[type="text"] {
 	width: 350px;
@@ -907,15 +922,24 @@ a:visited {
 	/*margin-top: 9px;*/
 }
 
+.social {
+	display: inline-block;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.social img {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	border: none;
+	margin: 0 10px;	
+}
+
 .main-footer .social ul li {
 	display: inline-block;
 	float: right;
 	zoom: 1;
-}
-
-.main-footer .social ul li img {
-	width: 24px;
-	height: 24px;
 }
 
 .bottom-footer {
@@ -948,7 +972,7 @@ a:visited {
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
-/****SECTION MIDDLE****/	
+   /****SECTION MIDDLE****/	
 
 	#middle-email input[type="email"] {
 		width: 250px;
@@ -961,7 +985,7 @@ a:visited {
 	}
 
 
-/****SECTION WORK*******/
+   /****SECTION WORK*******/
 
 	.img-block h4 {
 		text-transform: uppercase;
@@ -983,9 +1007,28 @@ a:visited {
 	   font-size: 1em;
 	   padding: 6px 20px;
 	}
+
+
+
+   /****SECTION FOOTER*******/
+
+	#footer-email input[type="email"], 
+	#name	input[type="text"] {
+		width: 295px;
+		min-width: 100%;
+		padding: 3px 0 3px 10px;
+		border-radius: 7px;
+		margin-bottom: 20px;
 }
 
+	#message input[type="text"] {
+	/*	width: 620px;*/	
+	/*	max-width: 100%;
+		border-radius: 7px;*/
+		padding: 10px 0 170px 10px;
+	}
 
+}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -1004,7 +1047,7 @@ a:visited {
     display: inline-block;
     font-size: 1em;
     padding: 0 15px;
-}
+	}
 
 	.title-block p {
 		font-size: 1.6em;
@@ -1014,9 +1057,9 @@ a:visited {
 	.work-block {
 		margin-top: 25px;
 	}
-}
 
-/****SECTION MIDDLE****/
+
+   /****SECTION MIDDLE****/
 
 #middle-email input[type="email"] {
 		border-radius: 7px;
@@ -1036,13 +1079,20 @@ a:visited {
 	}	
 
 
-/************** FOOTER *****************/
+   /************** FOOTER *****************/
+	
+	.main-footer .team-text {
+		margin-bottom: 30px;
+	}
 
-#message input[type="text"] {
-	width: 350px;
-	min-width: 100%;
-	border-radius: 7px;
-	padding: 10px 0 170px 10px;
+	#footer-email input[type="email"], 
+	/*#name	input[type="text"]*/ {
+		width: 300px;
+		min-width: 100%;
+		padding: 3px 0 3px 10px;
+		border-radius: 7px;
+		margin-bottom: 20px;
+	}
 }
 
 
@@ -1126,6 +1176,14 @@ a:visited {
 	.review {
 		padding-top: 30px;
 	}
+
+	/************** FOOTER *****************/
+
+	#message input[type="text"] {
+		border-radius: 7px;
+		padding: 10px 0 150px 10px;
+		max-width: 100%;
+	}
 }
 
 
@@ -1195,6 +1253,12 @@ a:visited {
 
 	.review {		
 		padding-top: 10px;
+	}
+
+	/************** FOOTER ************/
+
+	#message input[type="text"] {
+		padding: 10px 0 130px 10px;
 	}
 }
 
