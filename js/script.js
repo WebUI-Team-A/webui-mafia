@@ -29,10 +29,40 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$('a[href^="#"]').click(function(){
-		var el = $(this).attr('href');
+	   var el = $(this).attr('href');
 	$('body').animate({
 		scrollTop: $(el).offset().top}, 2000);
 	return false;
 	});
 });
+ 
+/****Google Map****/
 
+var myCenter=new google.maps.LatLng(48.922443, 24.710182);
+var marker;
+
+function initialize() {
+   var mapProp = {
+      center:myCenter,
+      zoom:15,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+
+   var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+   var marker=new google.maps.Marker({
+      position:myCenter,
+      animation:google.maps.Animation.DROP
+   });
+
+   marker.setMap(map);
+
+   var infowindow = new google.maps.InfoWindow({
+      content:"Our Office"
+   });
+
+   google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(map,marker);
+   });
+}
+google.maps.event.addDomListener(window, 'load', initialize);
