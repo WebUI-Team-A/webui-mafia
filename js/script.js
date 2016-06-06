@@ -27,15 +27,62 @@ $(document).ready(function() {
 
 /*Smooth scroll*/
 
+// $(document).ready(function() {
+// 	$('a[href^="#"]').click(function(){
+// 	   var el = $(this).attr('href');
+// 	$('body').animate({
+// 		scrollTop: $(el).offset().top}, 2000);
+// 	return false;
+// 	});
+// });
+
+
 $(document).ready(function() {
-	$('a[href^="#"]').click(function(){
-	   var el = $(this).attr('href');
-	$('body').animate({
-		scrollTop: $(el).offset().top}, 2000);
-	return false;
-	});
+   $('a[href="#wedo"]').click(function(){
+      var el = $(this).attr('href');
+   $('body').animate({
+      scrollTop: $(el).offset().top}, 2000);
+   return false;
+   });
+});
+
+$(document).ready(function() {
+   $('a[href="#ourworks"]').click(function(){
+      var el = $(this).attr('href');
+   $('body').animate({
+      scrollTop: $(el).offset().top}, 2000);
+   return false;
+   });
 });
  
+$(document).ready(function() {
+   $('a[href="#review"]').click(function(){
+      var el = $(this).attr('href');
+   $('body').animate({
+      scrollTop: $(el).offset().top}, 2000);
+   return false;
+   });
+});
+
+$(document).ready(function() {
+   $('a[href="#ourteam"]').click(function(){
+      var el = $(this).attr('href');
+   $('body').animate({
+      scrollTop: $(el).offset().top}, 2000);
+   return false;
+   });
+});
+
+$(document).ready(function() {
+   $('a[href="#contacts"]').click(function(){
+      var el = $(this).attr('href');
+   $('body').animate({
+      scrollTop: $(el).offset().top}, 2000);
+   return false;
+   });
+});
+
+
 /****Google Map****/
 
 var myCenter=new google.maps.LatLng(48.922443, 24.710182);
