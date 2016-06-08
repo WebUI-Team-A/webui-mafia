@@ -37,11 +37,33 @@ a:visited {
 	text-decoration: none;
 }
 
+/**/
+
+#header {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	width: 100%;		
+}
+
+#header.default {
+	position: fixed;
+	top: 0;
+	background: rgba(56, 63, 71, 0.95);
+	border-bottom: 1px solid #fff;
+	padding-top: 20px;
+}
+
+
+/**/
+
 .logo {
 	margin-top: 10px;
 	margin-left: 40px;
 	font-size: 1.8em;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 
@@ -617,6 +639,23 @@ a:visited {
 
 	/*****HEADER*****/
 
+	#header {
+		position: relative;
+		/*top: 0px;
+		left: 0;
+		right: 0;
+		z-index: 9999;
+		width: 100%;	*/	
+	}
+
+	#header.default {
+		position: relative;
+		top: 0;
+		/*background: rgba(56, 63, 71, 0.95);
+		border-bottom: 2px solid #fff;
+		padding-top: 20px;*/
+	}
+
 	nav {
 		height: 70px; 
 		line-height: 35px;
@@ -626,7 +665,11 @@ a:visited {
 		left: 0;
 		width: 100%;
 		z-index: 9999;		
-	}	
+	}
+
+	.navbar-header	{
+		background-color: #363C44;
+	}
 
 	.top-line {
 		display: none;
@@ -658,8 +701,8 @@ a:visited {
 	}
 
 	#top_menu {
-		background-color: #363C44;
 		padding: 20px 0;
+		background-color: #363C44;
 	} 
 
 	.menu li {
@@ -775,6 +818,14 @@ a:visited {
 
 	#message input[type="text"] {
 		padding: 10px 0 130px 10px;
+	}
+
+	.social img {
+		width: 24px;
+		height: 24px;
+		display: inline-block;
+		border: none;
+		margin: 0 5px;	
 	}
 }
 
