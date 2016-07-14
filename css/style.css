@@ -225,9 +225,6 @@ a:visited {
     background-color: rgba(247, 96, 14, 0.9);
     border-radius: 11px;
     display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
     opacity: 0;
 }
@@ -595,7 +592,7 @@ a:visited {
         margin-bottom: 30px;
     }
 
-    #footer-email input[type="email"],
+    #footer-email input[type="email"]
         /*#name	input[type="text"]*/
     {
         width: 300px;
